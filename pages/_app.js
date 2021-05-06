@@ -28,6 +28,9 @@ export default function App({ Component, pageProps }) {
         Demo E-commerce website built with <a href="https://reactjs.org/">React</a>, <a href="https://nextjs.org/">Next.js</a>, and <a href="https://jamcart.io">Jamcart</a>
       </p>
       <p>
+        Source available on <a href="https://github.com/JamCart/react-nextjs-vercel-demo">GitHub</a>
+      </p>
+      <p>
         Photos by <a href="https://unsplash.com/@sabrinnaringquist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sabrinna Ringquist</a> on <a href="https://unsplash.com/@sabrinnaringquist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </p>
     </footer>

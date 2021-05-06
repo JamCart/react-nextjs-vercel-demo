@@ -1,5 +1,6 @@
 {
   "name": "nextjs-ecommerce-demo",
+  "license": "0BSD",
   "version": "0.1.0",
   "private": true,
   "scripts": {
