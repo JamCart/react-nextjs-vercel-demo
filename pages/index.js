@@ -33,7 +33,7 @@ export default function Home({ products }) {
 function ProductView ({ product }) {
   return (
     <li key={ product.id }>
-      <Link href={ `/product/${ product.id }` }>
+      <Link href={ `/product/${ product.id }` } prefetch={ false }>
         <a className={ style.product }>
           <div className={ style['product-image'] }>
             <Image alt="" height="427" width="640" src={ product.image } />
