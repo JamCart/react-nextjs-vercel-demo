@@ -41,16 +41,6 @@
   grid-gap: 1em;
   margin: 0 1em 0 0;
 }
-.categories {
-  display: flex;
-  grid-area: categories;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.categories li {
-  margin-right: 1em;
-}
 
 .open {
   grid-area: cart;
