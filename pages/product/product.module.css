@@ -1,0 +1,51 @@
+.add jamcart-add {
+  background: #222;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  padding: .3em 1em .4em;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price {
+  color: #525252;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 125%;
+  margin-top: 0;
+}
+.price::before {
+  content: "$"
+}
+
+.product {
+  display: grid;
+  grid-gap: 1em 2em;
+}
+.product :first-child {
+  margin-top: 0;
+}
+.image {
+  text-align: center;
+}
+.image > * {
+  border: 3px solid #d4d7de;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media (min-width: 800px) {
+  .product {
+    grid-template: 'head img' 'body img' / 1fr 1fr;
+  }
+  .image {
+    grid-area: img;
+  }
+}
