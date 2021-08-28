@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
 
     <footer className={ style.demo }>
       <p>
-        Demo E-commerce website built with <a href="https://reactjs.org/">React</a>, <a href="https://nextjs.org/">Next.js</a>, and <a href="https://jamcart.io">Jamcart</a>
+        Demo E-commerce website built with <a href="https://reactjs.org/">React</a>, <a href="https://nextjs.org/">Next.js</a>, and <a href="https://jamcart.io">JamCart</a>
       </p>
       <p>
         Source available on <a href="https://github.com/JamCart/react-nextjs-vercel-demo">GitHub</a>
